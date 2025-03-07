@@ -11,7 +11,7 @@ export default tsConfig.config(
   prettierConfig,
   {
     rules: {
-      'vue/component-tags-order': [
+      'vue/block-order': [
         'error',
         {
           order: ['script', 'template', 'style'],
